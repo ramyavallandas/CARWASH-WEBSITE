@@ -1,0 +1,220 @@
+/*nav*/
+@media screen and (min-width:360px) and (max-width:400px){
+  .sub-header .logo a{
+    display:none;
+  }
+  .sub-header .left-menu {
+        position: absolute;
+        top:0.5%;
+        float: none;
+        display: block;
+        font-size: 50px;
+        padding: 0;
+        margin:0;
+    }
+    .sub-header .left-menu li a{
+      font-size:10px;
+      padding: 5px;
+    }
+  .sub-header .right-menu {
+        position: absolute;
+        top:30px;
+        left: 0px;
+        float: none;
+        display: block;
+        font-size: 50px;
+    }
+    .sub-header .right-menu li a{
+      font-size:10px;
+      padding: 5px;
+    }
+}
+/*nav end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.productcontainer{
+        width:100%;
+        padding-left: 50px;
+        padding-right: 60px;
+        
+        margin-top:6%; 
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    }
+    
+    .productcontainer h2{
+        background: #0062cc;
+        color: #fff;
+        width:200px;
+        font-size: 24px;
+        padding: 5px;
+        height: 40px;
+    }
+    .productcontainer h2::after{
+        content: '';
+        border-top: 40px solid #0062cc;
+        border-right: 40px solid transparent;
+        position: relative;
+        left:41px;
+        top:34px;
+    }
+    .producontainer .row{
+        margin-top: 30px;
+    }
+    .box:hover{
+        animation: scale-up-centers 0.65s ease-out both;
+    }
+    @keyframes scale-up-centers{
+      0%{
+        transform: scale(1);
+      }
+      100%{
+        transform: scale(1.05);
+      }
+    }
+ 
+
+    img{
+        width:100%; 
+        height: 200px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px 0 rgb(135,206,235), 0 6px 20px 0 rgb(135,206,235);
+        color: skyblue;
+        margin: 10px;
+
+    }
+    .product-bottom .fa{
+        color:#28a745;
+        font-size: 20px;
+    }
+    .product-bottom h3{
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+    .product-bottom h5{
+        font-size: 15px;
+        padding-bottom: 10px;
+
+    }
+    .overlay{
+        display: block;
+        opacity: 0;
+        position: absolute;
+        top:10%;
+        margin-left: 0;
+        width: 70px;
+
+    }
+    .product-top:hover .overlay{
+        opacity: 1;
+        margin-left: 5%;
+        transition: 0.5s;
+    }
+    .overlay .fa{
+        cursor: pointer;
+        background-color:blue;
+        color:white;
+        height:35px;
+        width: 35px;  
+        font-size: 20px;
+        padding: 7px;
+        margin: 5%;
+        margin-bottom: 5%;
+        border-radius: 50%;
+
+    }
+    .overlay .fa:hover{
+        color:blue;
+        background-color: transparent !important; 
+
+    }
+    .overlay .fa:active{
+        color:red;
+        background-color: transparent !important; 
+
+    }
+    
+    .overlay .btn-secondary{
+
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+  .bg-image1{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1vh;
+    background-attachment: fixed;
+}
+
+
+
+@media screen and (min-width:2500px) and (max-width:4000px){
+    .productcontainer{
+        margin-top: 4%;
+        margin-bottom: 10%;
+    } 
+}
+
+@media screen and (min-width:1300px) and (max-width:2000px){
+    .productcontainer{
+        margin-top: 6%;
+        margin-bottom: 20%;
+    } 
+}
+@media screen and (min-width:900px) and (max-width:1300px){
+    .productcontainer{
+        margin-top: 8%;
+        margin-bottom: 24%;
+    } 
+}
+@media screen and (min-width:600px) and (max-width:800px){
+    .productcontainer{
+        margin-top: 12%;
+        margin-bottom: 18%;
+    } 
+}
+@media screen and (min-width:420px) and (max-width:500px){
+    .productcontainer{
+        margin-top:25%;   
+    } 
+}
+@media screen and (min-width:350px) and (max-width:400px){
+    .productcontainer{
+        margin-top:29%;   
+    } 
+}
+@media screen and (min-width:300px) and (max-width:340px){
+    .productcontainer{
+        margin-top:30%;   
+    } 
+}
